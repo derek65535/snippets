@@ -1,0 +1,5 @@
+#make and change to a directory
+mkdir $1
+cd $1
+
+#todo - enclose in a function
