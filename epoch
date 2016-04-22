@@ -1,2 +1,3 @@
-#epoch - super sneaky way of getting number of seconds since 1970
+# epoch - super sneaky way of getting number of seconds since 1970
+
 truss /usr/bin/date 2>&1 | grep ^time | nawk '{print $3}'
